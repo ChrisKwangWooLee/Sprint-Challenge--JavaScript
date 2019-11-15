@@ -30,32 +30,45 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+forEach returns undefined, while .map returns an array.
+
 2. What is the difference between a function and a method?
+
+A method is a function declared within an object.
 
 3. What is closure?
 
+Closure gives you access to an outer function's scope from an inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+First, 'this' keyword used in global scope will refer to the global/window object. (Global binding)
+Second, 'this' keyword used within a function of an object will refer to the instance of the object. (Implicit binding)
+Thrid, 'this' keyword can be explicitly pointed to an object by using call(), apply(), or bind() methods. (Explicit binding)
+Fourth, 'this' keyword can be referred to the instance of object created with a constructor function, using the keyword 'new.' (New binding)
+
 5. Why do we need super() in an extended class?
+
+Method invokes constructor function of parent class. It allows child class to inherit parent's properties.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [v] Create a forked copy of this project.
+- [v] Add TL as collaborator on Github.
+- [v] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [v] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [v] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [v] You are now ready to build this project with your preferred IDE
+- [v] Implement the project on your Branch, committing changes regularly.
+- [v] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your team lead as a Reviewer on the Pull-request
-- [ ] TL then will count the HW as done by  merging the branch back into master.
+- [v] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [v] Add your team lead as a Reviewer on the Pull-request
+- [v] TL then will count the HW as done by  merging the branch back into master.
 
 
 ## Minimum Viable Product
@@ -66,19 +79,19 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [v] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [v] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [v] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [v] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
